@@ -1,0 +1,328 @@
+\documentclass[letterpaper,11pt]{article}
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+
+\urlstyle{same}
+
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+     
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\begin{document}
+
+
+%----------HEADING----------
+
+
+
+
+\begin{center}
+    {\Huge \scshape Shuvam Ghosh} \\ \vspace{1pt}
+    Durgapur-12,WestBengal \\ \vspace{1pt}
+    \small \href{tel:+xxxxxxxxxxxx}{ \raisebox{-0.1\height}\faPhone\ \underline{+91 7602797337} ~} \href{mailto:yourname@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{shuvamghosh375@gmail.com}} ~
+    \href{linkedin.com/in/shuvam-ghosh-7a469a264}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{Linkedin}}  ~
+    \href{https://github.com/mastershuvam}{\raisebox{-0.2\height}\faGithub\ \underline{github}} ~
+    \href{https://leetcode.com/u/Shuvam234/}{\raisebox{-0.2\height}{\includegraphics[height=0.3cm, width=0.3cm]{leetcode.png}}\ \underline{LeetCode}} ~
+    \vspace{-8pt}
+    \href{https://www.geeksforgeeks.org/user/shuvamghb21h/}{\raisebox{-0.2\height}{\includegraphics[height=0.3cm, width=0.3cm]{gfg.png}}\ \underline{GeeksforGeeks}} ~
+\end{center}
+ \vspace{0.5mm}
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {MAKAUT,W.B}{MM 2022 -- MM 2026}
+      {B.Tech - Computer Science and Engineering - \textbf{CGP} - \textbf{7.8}}{Durgapur-WB, INDIA}
+  \resumeSubHeadingListEnd
+ 
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Gopal Pur High School}{MM 2020 -- MM 2022}
+      {higher secondary(WBCHSE) - Scince  - \textbf{Percentage} - \textbf{81\%}}{Durgapur-WB, INDIA}
+  \resumeSubHeadingListEnd
+
+
+%------RELEVANT COURSEWORK-------
+\section{COURSEWORK / SKILLS}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-2pt, parsep=5pt]
+                \item Data Structures \& Algorithms
+                \item Operating Systems
+                \item Software Engineering
+                \item Database Management System (DBMS)
+               \item Artificial Intelligence
+                \item OOPS Concept
+                \item Web Development
+                \item Cloud Computing
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+
+
+
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+\vspace{-5pt}
+\resumeSubHeadingListStart
+   \resumeProjectHeading
+      {\href{https://github.com/mastershuvam/LMS-learning-management-system}{\textbf{\large{\underline{LMS-Learning-Management-System}}}} \href{https://github.com/mastershuvam/LMS-learning-management-system}{\raisebox{-0.1\height}\faExternalLink} $|$ \large{\underline{MERN Stack}}}{2024-2025}
+      \resumeItemListStart
+        \resumeItem{\normalsize{Developed a \textbf{Learning Management System (LMS)} to facilitate online education, enabling \textbf{course management, user authentication}, and \textbf{progress tracking} for both students and instructors.}}
+        \resumeItem{\normalsize{Implemented secure \textbf{user registration and login} with \textbf{role-based access control} for students and instructors.}}
+        \resumeItem{\normalsize{Designed \textbf{RESTful APIs} using \textbf{Node.js} and \textbf{Express.js} for features like course creation, enrollment, and progress tracking.}}
+        \resumeItem{\normalsize{Integrated \textbf{MongoDB} for managing users, courses, and student progress, using \textbf{Mongoose} for schema management.}}
+        \resumeItem{\normalsize{Utilized \textbf{Cloudinary} for secure and efficient \textbf{media storage} (e.g., course PDFs, images, and videos) with optimized delivery.}}
+        \resumeItem{\normalsize{Built an interactive \textbf{React.js frontend} with dynamic routing, and styled components using \textbf{CSS frameworks} (Tailwind CSS).}}
+        \resumeItem{\normalsize{Enhanced application performance with caching strategies and optimized API requests, reducing response times by \textbf{30\%}.}}
+        \resumeItem{\normalsize{Deployed the application: \textbf{Frontend on Netlify} and \textbf{Backend on Render}, ensuring scalability and accessibility.}}
+            \resumeItem{\textcolor{accent} {\href{https://lms-learning-management-system-tlh7.onrender.com} {\underline{\normalsize{Live site here}}}}}
+          \resumeItemListEnd
+          \vspace{-13pt}
+         
+      \resumeProjectHeading
+   {\href{https://github.com/mastershuvam/ByteChat}{\textbf{\large{\underline{ByteChat}}}} \href{https://bytechat.onrender.com/login}{\raisebox{-0.1\height}\faExternalLink} $|$ \large{\underline{MERN Stack}}}{2025}
+   \resumeItemListStart
+     \resumeItem{\normalsize{Developed a real-time \textbf{chat application} to enable secure and seamless communication between users with features like \textbf{user authentication}, \textbf{private chats}, and \textbf{group messaging}.}}
+     \resumeItem{\normalsize{Implemented \textbf{JWT-based authentication} and role-based access control for enhanced security.}}
+     \resumeItem{\normalsize{Utilized \textbf{Socket.IO} for real-time bidirectional communication between users, enabling smooth chat functionality.}}
+     \resumeItem{\normalsize{Integrated \textbf{Cloudinary} for secure and efficient handling of user profile images and media attachments.}}
+     \resumeItem{\normalsize{Built a responsive \textbf{React.js frontend} with dynamic routing and styled components using \textbf{Tailwind CSS}.}}
+     \resumeItem{\normalsize{Designed \textbf{RESTful APIs} using \textbf{Node.js} and \textbf{Express.js} to handle user registration, messaging, and group creation.}}
+     \resumeItem{\normalsize{Deployed the application: \textbf{Frontend on Netlify} and \textbf{Backend on Render}, ensuring high availability and scalability.}}
+     \resumeItem{\textcolor{accent}{\href{https://bytechat.onrender.com/login}{\underline{\normalsize{Live site here}}}}}
+   \resumeItemListEnd
+   \vspace{-13pt}
+
+          \resumeProjectHeading
+   {\href{https://github.com/mastershuvam/Hospital}{\textbf{\large{\underline{Hospital Management System}}}} \href{https://github.com/mastershuvam/Hospital}{\raisebox{-0.1\height}\faExternalLink} $|$ \large{\underline{JavaScript}}}{2024}
+   \resumeItemListStart
+     \resumeItem{\normalsize{Developed a console-based \textbf{Hospital Management System} in \textbf{Node.js} to efficiently manage \textbf{patients and doctors}.}}
+     \resumeItem{\normalsize{Implemented features to \textbf{add, display, and search patients and doctors}, assign doctors to patients, and generate prescribed bills.}}
+     \resumeItem{\normalsize{Designed reusable classes for \textbf{Doctor} and \textbf{Patient} to manage records and attributes like ID, specialization, degree, consultation fee, and personal details.}}
+     \resumeItem{\normalsize{Utilized \textbf{prompt-sync} for console-based inputs and \textbf{table formatting} for displaying data.}}
+     \resumeItem{\normalsize{Integrated \textbf{predefined specializations} for doctors to enhance usability and maintain accuracy in assignments.}}
+     \resumeItem{\normalsize{Enabled billing functionality to dynamically calculate and generate invoices based on the \textbf{doctor’s consultation fee}.}}
+     \resumeItem{\normalsize{Designed the program to handle up to \textbf{maximum patient and doctor records}, ensuring scalability.}}
+   \resumeItemListEnd
+   \vspace{-12pt}
+
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Languages:}}{ \normalsize{Python, Java, C, C++, TypeScript, JavaScript, SQL}} \\
+     \textbf{\normalsize{Developer Tools:}}{ \normalsize{VS Code, Postman}} \\
+     \textbf{\normalsize{Technologies/Frameworks:}}{\normalsize{Linux, GitHub, ReactJS, NextJS, NodeJS, ExpressJS, Git, MongoDB, Flutter, Cloudinary, AWS}} \\
+    }}
+ \end{itemize}
+ \vspace{-15pt}
+ 
+%-----------INVOLVEMENT---------------
+\section{CODING PLATFORMS}
+    \resumeSubHeadingListStart
+        \resumeItemListStart
+            \resumeItem{\normalsize{Solved \textbf{200+} Problems on \textbf{Leetcode}.
+            \href{https://leetcode.com/u/Shuvam234/}{\raisebox{-0.1\height}\faExternalLink }}}
+            \resumeItem{\normalsize{Solved \textbf{100+} Problems across \textbf{GeeksforGeeks}.
+            \href{https://www.geeksforgeeks.org/user/shuvamghb21h/}{\raisebox{-0.1\height}\faExternalLink }}}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+ \vspace{-11pt}
+
+
+
+
+%-----------INVOLVEMENT---------------
+\section{EXTRACURRICULAR}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Coding Problem Solving}{}{}{}
+            \resumeItemListStart
+                \resumeItem{\normalsize{Engaged in regular problem-solving activities on platforms like \textbf{LeetCode}, \textbf{GeeksforGeeks}, and \textbf{Codeforces}, improving algorithmic and analytical skills.}}
+                \resumeItem{\normalsize{Participated in \textbf{weekly coding contests} and competitive programming challenges, enhancing problem-solving speed and accuracy.}}
+                \resumeItem{\normalsize{Developed a strong foundation in \textbf{data structures} and \textbf{algorithms} by solving diverse problems across various difficulty levels.}}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+ \vspace{-11pt}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Time Management}{}{}{}
+            \resumeItemListStart
+                \resumeItem{\normalsize{Successfully balanced \textbf{academic responsibilities}, \textbf{competitive programming}, and \textbf{project development}, demonstrating effective time management skills.}}
+                \resumeItem{\normalsize{Consistently met deadlines for coding challenges, hackathons, and team projects while maintaining high-quality work.}}
+                \resumeItem{\normalsize{Improved productivity by following structured routines and prioritizing tasks based on deadlines and importance.}}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+ \vspace{-11pt}
+
+
+ 
+
+
+\end{document}
+
+
+
+
